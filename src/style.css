@@ -1,0 +1,4 @@
+#tsparticles{
+    z-index: -1;
+    animation-play-state: running;
+}
