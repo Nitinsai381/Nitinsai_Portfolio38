@@ -88,10 +88,7 @@ to{border-right-color: transparent;}
   
 }
 
-.laptop:hover{
-  text-shadow: 4px 5px 4px 3px rgb(11, 235, 239) !important;
-  
-}
+
 
 @media (max-width: 767px) {
 
