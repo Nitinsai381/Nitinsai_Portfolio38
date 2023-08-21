@@ -44,7 +44,7 @@ function Particle() {
 	            "speed": 0.5
 	        },
 	        "size": {
-	            "value": 1
+	            "value": 1.5
                 // previously 1
 	        },
 	        "opacity": {

@@ -54,18 +54,9 @@ function Resume() {
   return (
     <div>
       <Container fluid className="resume-section">
-        {/* <Particle /> */}
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button className="buttonR"
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
+       <Row>
+        <h1>This is my <b>CV</b>.</h1>
+       </Row>
 
         <Row className="resume">
         <Col>

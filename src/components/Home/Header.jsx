@@ -8,7 +8,7 @@ function Header(){
     return <div className="header">
     <Container>
     <Row>
-    <Col>
+    <Col lg={8}>
     <br/><br/>
     <h1 className="name">
     Hello! </h1>
@@ -17,7 +17,7 @@ function Header(){
     <br/>
     <h2 className="work line-1 anim-typewriter">A Web Designer.</h2>
     </Col>
-    <Col className="laptop-box" >
+    <Col lg={4} className="laptop-box" >
         {/* <img className="imgHeader" src={coder1} alt="Coder_image"/> */}
         <FaLaptopCode className="laptop"/>
     </Col>

@@ -2,24 +2,32 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 // import Coder2 from "../../Assets/coder2.png"
-
+import { useState } from 'react';
 import {MdPerson} from "react-icons/md"
 import { ConnectMe } from './ConnectMe';
 
 function BodyHome() {
+  const [width, setWidth] = useState(1200);
+
+  
   return (
     <div class="BodyHome">
-    <br/><br/><br/><br/><br/><br/>
+    <br/>
     <Container>
     
-      <Row>
+      <Row class="row-person">
 
-      <Col class="person-box">
+      <Col xs={{order:'last'}} lg={{span:5 ,order:'first'}} class="Col person-box">
             {/* <img src={Coder2} alt='img'  /> */}
-            <MdPerson class="person"/>
+            
+            
+        <MdPerson class="person"/>
+        
+        <br/><br/>
         </Col>
 
-        <Col class="size"><h1>INTRO ABOUT <b>ME</b></h1>
+        <Col  xs={{order:'first'}} lg={{span:7, order:'last'}} class="Col size">
+        <h1>INTRO ABOUT <b>ME</b></h1>
         <br/><br/>
         <p>Having lots of <b>interest in programming</b>, make me feel that I learnt atleast something to create things.</p>
         <p>I got good knowledge in <b>Python, Java, JavaScript</b></p>
@@ -27,7 +35,7 @@ function BodyHome() {
         <p>This passion of learning new things, pushes me to learn <b>new technologies</b> and explore more in this field.</p>
         </Col>
       </Row>
-      <br/><br/><br/><br/>
+      
       <Row>
         <Col>
 <ConnectMe/>

@@ -1,7 +1,7 @@
 /* header */
 .header{
   margin-top: 10%;
-  font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  /* font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; */
 
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
@@ -13,14 +13,14 @@
 }
 .name {
   font-weight: bolder;
-  font-size: 4rem;
+  font-size: 4.5rem;
   text-align: left;
-  color: rgb(255, 255, 255);
+  color: rgb(214, 247, 255);
   text-decoration: wavy;
   text-shadow: 0px 0px 21px 21px white;
 }
 .name b{
-  color: #80ffee;
+  color: #67fae7;
 }
 .work{
   font-weight: bolder;
@@ -71,7 +71,7 @@ to{border-right-color: transparent;}
 }
  .laptop {
   /* margin-left: 30%; */
-  margin-left:28%;
+  margin-left:18%;
   font-size: 18rem !important;
   /* margin: 15px !important; */
   padding: 10px !important;
@@ -94,8 +94,13 @@ to{border-right-color: transparent;}
 }
 
 @media (max-width: 767px) {
-  .laptop {
-    margin: 10px !important;
+
+  
+  .name{
+    font-size: 2.25rem;
+  }
+  .work{
+    font-size: 2rem;
   }
 }
 
@@ -111,8 +116,15 @@ to{border-right-color: transparent;}
 
 @media screen and (min-width: 300px) and (max-width: 1000px) {
   .laptop-box{
-    margin-top: 4rem;
+    /* margin-top: 0;
+    margin-left: 5%; */
+    align-items: center;
+    justify-content: center;
   }
+  .laptop{
+    width: 60%;
+  }
+  
 }
 
  /* BodyHome */
@@ -122,6 +134,8 @@ to{border-right-color: transparent;}
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 font-weight: 400;
+margin-top: 8rem;
+
  }
 
  .BodyHome h1{
@@ -142,7 +156,7 @@ font-weight: 400;
   font-size: 1.25rem;
  }
  .person{
-  margin-left: 30%;
+  margin-left: 20%;
   margin-top: 3rem;
   font-size: 14rem !important;
   /* margin: 15px !important; */
@@ -163,10 +177,26 @@ font-weight: 400;
   
 }
 
-@media (max-width: 767px) {
-  .person {
-    margin: 10px !important;
+@media screen and (max-width: 767px) {
+  .BodyHome{
+    margin-top: 2rem;
+    
   }
+  .person {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .BodyHome .row-person{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+ 
+  /* .BodyHome .Col:nth-of-type(2){
+    order: 1;
+  }
+  .BodyHome .Col:nth-of-type(1){
+    order: 2;
+  } */
 }
 
 .person:hover {
@@ -174,7 +204,16 @@ font-weight: 400;
   overflow: hidden !important;
   border: 2.2px solid rgb(10, 223, 243) !important;
 }
+.connect{
+  margin-top: 8rem;
+}
 
+@media screen and (max-width: 767px) {
+  .connect{
+    margin-top: 0;
+    
+  }
+}
 .connect h2{
   color: #ffffff;
 }
@@ -206,7 +245,7 @@ font-weight: 400;
 .NAVBAR{
   /* background-color: #00cfba; */
   width: 100%;
-  background-image: linear-gradient(to right, #00cfba, #00ad9c);
+  background-image: linear-gradient(to right, #02c7b4, #00a595);
   /* background-image: repeating-linear-gradient(to right,hsl(304, 91%, 13%)); */
   box-shadow:0px 0px 2px 2px #57c5b6;
   /* border-color:#28a090; */
@@ -216,7 +255,7 @@ font-weight: 400;
 
 @media screen and (min-width: 300px) and (max-width: 1080px) {
   #nav{
-    width:max-content;
+    width:100%;
   }
 }
 
@@ -256,6 +295,31 @@ top: 1%;
 
 .nav-right{
   margin-left: 46%;
+}
+@media screen and (min-width: 1340px) and (max-width: 1440px) {
+  .nav-right{
+    margin-left: 40%;
+  }
+}
+@media screen and (min-width: 1240px) and (max-width: 1300px) {
+  .nav-right{
+    margin-left: 35%;
+  }
+}
+@media screen and (min-width: 1089px) and (max-width: 1239px) {
+  .nav-right{
+    margin-left: 25%;
+  }
+}
+@media screen and (min-width:1039 ) and (max-width: 1088px) {
+  .nav-right{
+    margin-left: 15%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1030px) {
+  .nav-right{
+    margin-left: 15%;
+  }
 }
 .nav-link:hover{
   color: #a3fef2;
@@ -395,6 +459,18 @@ justify-content: center;
   padding-top: 8%;
   margin-bottom: 15%;
 }
+@media (max-width: 767px) {
+  .fun-page{
+    /* margin-top: 2%; */
+    margin-top: 8%;
+    margin-bottom: 12%;
+  }
+  .fun-page .head-fun{
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+}
+
 
 /* Styles for screens with a minimum width of 768px and maximum width of 1200px */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -409,7 +485,7 @@ justify-content: center;
   .fun-page .cardChanges {
     justify-content: center;
     align-items: center;
-    margin: 2% 2% 2% 2%;
+    margin: 4%;
   }
 }
 
@@ -417,7 +493,7 @@ justify-content: center;
   .fun-page .cardChanges {
     justify-content: center;
     align-items: center;
-    margin: 2% 2% 2% 2%;
+    margin: 4% 6% 4% 6%;
   }
 }
 
@@ -469,12 +545,10 @@ color:black
   font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
   color: aliceblue;
 }
-.Aboutme .size1{
-  width: 70%;
-}
+
 .Aboutme .size2{
   text-align: center;
-  width: 30%;
+  
 }
 @media screen and (min-width: 300px) and (max-width: 1000px) {
   .Aboutme .size2{
@@ -483,7 +557,7 @@ color:black
 }
 .size2 img{
   
-  width:60%;
+  width:90%;
   box-shadow:0px 0px 2px 2px #77ffed;
 }
 .size2 img:hover{
@@ -549,7 +623,7 @@ color:black
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgb(10, 223, 243) !important;
+  border: 2.2px solid rgb(0, 221, 241) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -584,6 +658,21 @@ color:black
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
+.resume-section h1{
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+.resume-section b{
+  color: #00cfba;
+}
+@media (max-width: 767px) {
+  .resume-section h1{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+}
 .resume-section .btn-primary{
   background-image:linear-gradient(to right, #28a090,rgb(2, 97, 118)) ;
 }
@@ -595,63 +684,55 @@ color:black
   background-image:linear-gradient(to left, #28a090,rgb(2, 97, 118)) ;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .App {
+.feedback{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+
+margin-top: 5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.feedback h1{
+  color: #67fae7;
+  margin-bottom: 3rem;
+}
+.feedback p{
+  font-size: 1.5rem;
+  
+}
+.feedback b{
+  color: #57c5b6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.feedback-btn{
+  margin-bottom: 6rem;
+}
+.feedback-btn .btn{
+  width:fit-content;
+}
+@media screen and (max-width: 767px) {
+  .feedback p{
+    font-size: 1rem;
+    
   }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
