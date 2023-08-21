@@ -4,9 +4,7 @@ import React from "react";
 
 function Fun(){
 
-// function mouseHover(){
-  
-// }
+
 
 
     return <div class="container-fluid fun-page">

@@ -5,7 +5,7 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
+  
   DiPython,
   DiGit,
   DiJava,
@@ -53,10 +53,7 @@ function Cards() {
         <p>ReactJs</p>
       </Col>
       
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-        <p>MongoDB</p>
-      </Col> */}
+     
       
       <Col xs={4} md={2} className="tech-icons">
         <TbSql />

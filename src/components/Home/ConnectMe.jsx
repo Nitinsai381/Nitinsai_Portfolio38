@@ -1,7 +1,7 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap"
 import {BsGithub,BsInstagram,BsLinkedin} from "react-icons/bs"
-import { Link } from "react-router-dom";
+
 import {FaTwitter} from "react-icons/fa"
 
 

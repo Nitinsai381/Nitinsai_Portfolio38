@@ -1,43 +1,8 @@
-// import React from "react";
-// import { Document, Page } from "react-pdf";
-// import NSpdf from "../../src/Assets/NitinSai_CV.pdf"
-// export function Resume(){
-
-//     return <div>
-// <Document file={NSpdf}>
-//     <Page  pageNumber={1} />
-// </Document>
-//     </div>
-// }
-
-
-
-// import React from 'react';
-// import { Document, Page } from 'react-pdf';
-// import pdfUrl from "../Assets/NitinSai_CV.pdf";
-// function Resume() {
-// //   const pdfUrl = 'src\Assets\NitinSai_CV.pdf';
-
-//   return (
-//     <div>
-//       <h1>PDF Viewer</h1>
-//       <Document
-//         file={pdfUrl}
-//         onLoadSuccess={({ numPages }) => console.log(`Number of pages: ${numPages}`)}>
-      
-//         <Page pageNumber={1} />
-//       </Document>
-//     </div>
-//   );
-// }
-
-// export default Resume;
-
 
 import React, { useState, useEffect } from "react";
 import { Container, Row,Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-// import Particle from "../Particle";
+
 import pdf from "../Assets/NitinSai_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";

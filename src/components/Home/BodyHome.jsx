@@ -1,13 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import Coder2 from "../../Assets/coder2.png"
-import { useState } from 'react';
+
+
 import {MdPerson} from "react-icons/md"
 import { ConnectMe } from './ConnectMe';
 
 function BodyHome() {
-  const [width, setWidth] = useState(1200);
+ 
 
   
   return (
