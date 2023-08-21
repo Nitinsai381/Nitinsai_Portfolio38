@@ -199,7 +199,8 @@ font-weight: 400;
   position: sticky;
 } */
 .NAVBAR{
-  background-color: #00cfba;
+  /* background-color: #00cfba; */
+  background-image: linear-gradient(to right, #00cfba, #00ad9c);
   /* background-image: repeating-linear-gradient(to right,hsl(304, 91%, 13%)); */
   box-shadow:0px 0px 2px 2px #57c5b6;
   /* border-color:#28a090; */

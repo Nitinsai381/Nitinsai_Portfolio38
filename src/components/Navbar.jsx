@@ -6,6 +6,7 @@ import PortraitOutlinedIcon from '@mui/icons-material/PortraitOutlined';
 import InsertEmoticonOutlinedIcon from '@mui/icons-material/InsertEmoticonOutlined';
 import { Avatar } from "@mui/material";
 import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
+import FeedbackOutlinedIcon from '@mui/icons-material/FeedbackOutlined';
 
 function Navbar(){
 
@@ -31,7 +32,7 @@ const handleClick=()=>{
 <Link class = "nav-link nav1" to="/fun" ><InsertEmoticonOutlinedIcon style={{marginBottom:"0.4rem", marginRight:"0.2rem"}} fontSize="medium"/>Fun</Link>
 <Link class = "nav-link nav1" to="/about" ><PortraitOutlinedIcon style={{marginBottom:"0.4rem", marginRight:"0.2rem"}} fontSize="medium"/>About</Link>
 <Link class = "nav-link nav1" to="/resume"><ArticleOutlinedIcon style={{marginBottom:"0.4rem", marginRight:"0.2rem"}} fontSize="medium"/>Resume</Link>
-<Link class = "nav-link nav1" to="https://docs.google.com/forms/d/e/1FAIpQLSd5Z4oEM4o7Nhl34VAwHGeo9xbt7Ow-fN6nzBtWAkc3RKmk7g/viewform?usp=sf_link"><ArticleOutlinedIcon style={{marginBottom:"0.4rem", marginRight:"0.2rem"}} fontSize="medium"/>Feedback</Link>
+<Link class = "nav-link nav1" to="https://docs.google.com/forms/d/e/1FAIpQLSd5Z4oEM4o7Nhl34VAwHGeo9xbt7Ow-fN6nzBtWAkc3RKmk7g/viewform?usp=sf_link"><FeedbackOutlinedIcon style={{marginBottom:"0.2rem", marginRight:"0.2rem"}} fontSize="medium"/>Feedback</Link>
 
           {/* <a class="nav-link nav1" href="#fun">Fun</a>
           <a class="nav-link nav1" href="#aboutme">About</a>
