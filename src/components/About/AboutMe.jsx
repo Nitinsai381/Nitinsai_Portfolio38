@@ -8,7 +8,7 @@ function AboutMe(){
     return <div class ="Aboutme">
     <Container>
       <Row>
-        <Col class="size1">
+        <Col md={6} sm={8} class="size1">
           <h1 class="Head">KNOW MORE ABOUT <b>ME</b></h1>
           <br/>
           <h1>Hi, I am <b>Nitin Sai</b>. I am from <b>Hyderabad, India</b></h1>

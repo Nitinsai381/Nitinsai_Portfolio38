@@ -109,6 +109,11 @@ to{border-right-color: transparent;}
   line-height: 1.6 !important;
 } */
 
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .laptop-box{
+    margin-top: 4rem;
+  }
+}
 
  /* BodyHome */
  .BodyHome{
@@ -200,6 +205,7 @@ font-weight: 400;
 } */
 .NAVBAR{
   /* background-color: #00cfba; */
+  width: 100%;
   background-image: linear-gradient(to right, #00cfba, #00ad9c);
   /* background-image: repeating-linear-gradient(to right,hsl(304, 91%, 13%)); */
   box-shadow:0px 0px 2px 2px #57c5b6;
@@ -207,6 +213,13 @@ font-weight: 400;
   border-color: #28a090;
   margin-top: 1%;
 }
+
+@media screen and (min-width: 300px) and (max-width: 1080px) {
+  #nav{
+    width:max-content;
+  }
+}
+
 .navbar:hover{
   box-shadow: 0px 0px 5px 5px hsl(174, 98%, 76%);
 }
@@ -462,6 +475,11 @@ color:black
 .Aboutme .size2{
   text-align: center;
   width: 30%;
+}
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  .Aboutme .size2{
+    margin-top: 4rem;
+  }
 }
 .size2 img{
   
