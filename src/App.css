@@ -22,12 +22,6 @@
 .name b{
   color: #67fae7;
 }
-.work{
-  font-weight: bolder;
-  text-align: left;
-  font-size: 3rem;
-  color: #57c5b6 ;
- }
 
 /*   
 .line-1{
@@ -71,6 +65,7 @@ to{border-right-color: transparent;}
 }
  .laptop {
   /* margin-left: 30%; */
+  margin-top: 3rem;
   margin-left:18%;
   font-size: 18rem !important;
   /* margin: 15px !important; */
@@ -94,12 +89,35 @@ to{border-right-color: transparent;}
 
   
   .name{
-    font-size: 2.25rem;
+    font-size: 2.35rem;
   }
   .work{
     font-size: 2rem;
   }
 }
+
+.Typewriter__wrapper {
+  font-weight: bolder;
+  text-align: left;
+  font-size: 3rem;
+  color: #57c5b6 ;
+}
+.Typewriter__cursor {
+  font-size: 3.4rem !important;
+  color: #62ced6 !important;
+}
+
+@media (max-width: 767px) {
+  .Typewriter__wrapper {
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    position: absolute !important;
+  }
+  .Typewriter__cursor {
+    display: none !important;
+  }
+}
+
 
 .laptop:hover {
   transform: scale(1.25) !important;
@@ -113,12 +131,12 @@ to{border-right-color: transparent;}
 
 @media screen and (min-width: 300px) and (max-width: 1000px) {
   .laptop-box{
-    /* margin-top: 0;
-    margin-left: 5%; */
+    margin-top: 4rem;
     align-items: center;
     justify-content: center;
   }
   .laptop{
+    margin-top: 0;
     width: 60%;
   }
   
@@ -137,7 +155,7 @@ margin-top: 8rem;
 
  .BodyHome h1{
   color: #def4f1;
-  
+  margin-bottom: 4rem;
  }
 .BodyHome b{
   color: #77ffed;
@@ -176,8 +194,12 @@ margin-top: 8rem;
 
 @media screen and (max-width: 767px) {
   .BodyHome{
-    margin-top: 2rem;
-    
+    margin-top: 0;   
+  }
+  .BodyHome h1{
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
   }
   .person {
     width: 60%;
@@ -208,8 +230,12 @@ margin-top: 8rem;
 @media screen and (max-width: 767px) {
   .connect{
     margin-top: 0;
-    
   }
+  .connect h2{
+    
+    color: #ffffff;
+  }
+  
 }
 .connect h2{
   color: #ffffff;
@@ -220,15 +246,18 @@ margin-top: 8rem;
 .icon-connect{
   margin: 1rem;
   border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
 }
 
 .iconLogo{
-  margin-top: 11%;
-  margin-bottom: 11%;
+  margin-top: 0.6rem;
+  margin-bottom: 0.5rem;
 }
 .icon-connect:hover{
   
-  box-shadow: 0px 0px 3px 3px #77ffed;
+  box-shadow: 0px 0px 5px 5px #77ffed;
 } 
 
 
@@ -247,7 +276,7 @@ margin-top: 8rem;
   box-shadow:0px 0px 2px 2px #57c5b6;
   /* border-color:#28a090; */
   border-color: #28a090;
-  margin-top: 1%;
+  margin-top: 0%;
 }
 
 @media screen and (min-width: 300px) and (max-width: 1080px) {
