@@ -6,7 +6,7 @@
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   /* temporary */
-  font-weight: 400;
+  
   margin-bottom: 8%;
   /* rgb(39, 60, 67); */
 
@@ -17,6 +17,7 @@
   text-align: left;
   color: rgb(214, 247, 255);
   text-decoration: wavy;
+  font-weight: 800;
   text-shadow: 0px 0px 21px 21px white;
 }
 .name b{
@@ -114,17 +115,18 @@
 }
 
  /* BodyHome */
- .BodyHome{
-  /* font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; */
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-font-weight: 400;
-margin-top: 8rem;
 
+ .BodyHome{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 600;
+margin-top: 8rem;
  }
 
  .BodyHome h1{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 800;
   color: #def4f1;
   margin-bottom: 4rem;
  }
@@ -166,10 +168,13 @@ margin-top: 8rem;
 @media screen and (max-width: 767px) {
   .BodyHome{
     margin-top: 0;   
+    text-align: left;
+   
   }
   .BodyHome h1{
     font-size: 2rem;
     color: #ffffff;
+    margin-left: 1rem;
     margin-bottom: 2rem;
   }
   .person {
@@ -180,13 +185,6 @@ margin-top: 8rem;
     display: flex;
     flex-direction: column-reverse;
   }
- 
-  /* .BodyHome .Col:nth-of-type(2){
-    order: 1;
-  }
-  .BodyHome .Col:nth-of-type(1){
-    order: 2;
-  } */
 }
 
 .person:hover {
@@ -222,6 +220,7 @@ margin-top: 8rem;
 }
 .connect h2{
   color: #ffffff;
+  font-weight: 500;
 }
 .connect b{
   color: #77ffed;
@@ -249,9 +248,6 @@ margin-top: 8rem;
 
 /* NavBar */
 
-/* .NAVBAR{
-  position: sticky;
-} */
 .NAVBAR{
   /* background-color: #00cfba; */
   width: 100%;
@@ -336,51 +332,10 @@ top: 1%;
   text-shadow:  1px 0px 1px #a3fef2;
 }
 
-/* .navbar .nav-link a::after {
-  content: "";
-  position: relative;
-  display: block;
-  height: 5px;
-  width: 0;
-  border-radius: 16px;
-  background: #c95bf5;
-  bottom: 1px;
-  left: 0;
-  z-index: -1;
-  transition: all 0.3s ease-out 0s;
-}
-
-.navbar .nav-link a:hover::after {
-  width: 100%;
-} */
-
-
-/* SectionA */
-/* #section1{
-  
-  height: 1000px;
-  color: white;
-} */
-/* #fun{
-  height: 1000px;
-  color: white;
-} */
-/* #aboutme{
-  height: 1000px;
-  color: white;
-} */
-/* #section4{
-  height: 1000px;
-  color: white;
-} */
-
-
-
-
-
 /* --------- */
 /* Footer */
 /* --------- */
+
 .footer {
   background-color: rgb(1, 140, 131);
  
@@ -432,16 +387,19 @@ box-shadow:0px 0px 3px 3px #77ffed;
   text-shadow: #14dfc1;
 }
 
-
-
-
-
 .blockquote-footer {
   color: #88bcc0 !important;
 }
 
 
 /* Fun */
+.fun-page h2{
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.fun-page h4{
+  font-weight: 500;
+}
 .card:hover{
   box-shadow: 0px 0px 5px 5px #33c7ef;
   background-image: linear-gradient(to right,rgb(2, 171, 177),#03676a);
@@ -552,8 +510,11 @@ color:black
 
 .Aboutme{
   margin-top: 10%;
-  font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
   color: aliceblue;
+
 }
 
 .Aboutme .size2{
@@ -574,18 +535,26 @@ color:black
   transform: scale(1.05) !important;
   box-shadow:0px 0px 4px 4px #77ffed;
 }
-.Aboutme h1{
-  font-size: 1.25rem;
-}
 .Aboutme .Head{
   font-size: 2rem;
+  /* font-weight: 600; */
+} 
+.Aboutme h1{
+  font-size: 1.25rem; 
+  font-weight: 400;
 }
 .Aboutme p{
+  /* font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
   font-size: 1.25rem;
+  /* font-weight: 400; */
 }
 
 .Aboutme b{
   color: #57c5b6;
+  font-weight: 400;
 }
 
 /* Techskills */
@@ -671,6 +640,7 @@ color:black
 .resume-section h1{
   text-align: center;
   font-size: 2.5rem;
+  font-weight: 800;
   color: #ffffff;
 }
 .resume-section b{
@@ -704,9 +674,11 @@ margin-top: 5rem;
 .feedback h1{
   color: #67fae7;
   margin-bottom: 3rem;
+  font-weight: 800;
 }
 .feedback p{
   font-size: 1.5rem;
+  font-weight: 500;
   
 }
 .feedback b{
@@ -721,8 +693,7 @@ margin-top: 5rem;
 }
 @media screen and (max-width: 767px) {
   .feedback p{
-    font-size: 1rem;
-    
+    font-size: 1.05rem;   
   }
 }
 

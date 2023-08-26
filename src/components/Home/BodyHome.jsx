@@ -27,9 +27,10 @@ function BodyHome() {
         </Col>
 
         <Col  xs={{order:'first'}} lg={{span:7, order:'last'}} class="Col size">
-        <h1>INTRO ABOUT <b>ME</b></h1>
+        <h1>Intro About <b>Me</b>.</h1>
+        {/* <h1>INTRO ABOUT <b>ME</b>.</h1> */}
         
-        <p>Having lots of <b>interest in programming</b>, make me feel that I learnt atleast something to create things.</p>
+        <p>Having lot of <b>interest in programming</b>, make me feel that I am the person who belongs here.</p>
         <p>I got good knowledge in <b>Python, Java, JavaScript</b></p>
         <p>I always like to build new <b>Websites</b>, which motivates me to work more.</p>
         <p>This passion of learning new things, pushes me to learn <b>new technologies</b> and explore more in this field.</p>
