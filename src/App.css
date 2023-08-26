@@ -640,7 +640,7 @@ font-family: 'Ubuntu', sans-serif; */
 .resume-section h1{
   text-align: center;
   font-size: 2.5rem;
-  font-weight: 800;
+  font-weight: 600;
   color: #ffffff;
 }
 .resume-section b{
@@ -674,11 +674,11 @@ margin-top: 5rem;
 .feedback h1{
   color: #67fae7;
   margin-bottom: 3rem;
-  font-weight: 800;
+  /* font-weight: 800; */
 }
 .feedback p{
   font-size: 1.5rem;
-  font-weight: 500;
+  /* font-weight: 500; */
   
 }
 .feedback b{
