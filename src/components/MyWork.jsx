@@ -8,7 +8,7 @@ function Fun(){
 
 
     return <div class="container-fluid fun-page">
-    <div class="row head-fun"><center><h2>Play and have fun!</h2><h4>Here is part of my recent work.</h4></center></div>
+    <div class="row head-fun"><center><h2>This is my <b>recent work</b>.</h2></center></div>
     <div class="row rowChanges">
     <div class="card col-lg-3 col-md-4 col-sm-4 cardChanges">
     <div class="card-header">

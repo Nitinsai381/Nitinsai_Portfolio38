@@ -4,7 +4,7 @@ import './App.css';
 import {  Routes, Route,Navigate } from 'react-router-dom';
 import Header from './components/Home/Header';
 import Particle from './components/Particle';
-import Fun from "./components/Fun";
+import Fun from "./components/MyWork";
 import Navbar from './components/Navbar';
 // import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';

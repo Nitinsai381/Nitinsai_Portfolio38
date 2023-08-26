@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import PortraitOutlinedIcon from '@mui/icons-material/PortraitOutlined';
-import InsertEmoticonOutlinedIcon from '@mui/icons-material/InsertEmoticonOutlined';
+import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import { Avatar } from "@mui/material";
 import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
 import FeedbackOutlinedIcon from '@mui/icons-material/FeedbackOutlined';
@@ -26,7 +26,7 @@ function Navbar(){
         <div class="navbar-nav nav-right container-fluid">
        
 <Link class = "nav-link nav1" to="/" ><HomeOutlinedIcon style={{marginBottom:"0.4rem", marginRight:"0.2rem"}} fontSize="medium"/>Home</Link>
-<Link class = "nav-link nav1" to="/fun" ><InsertEmoticonOutlinedIcon style={{marginBottom:"0.4rem", marginRight:"0.2rem"}} fontSize="medium"/>Fun</Link>
+<Link class = "nav-link nav1" to="/fun" ><CodeOutlinedIcon style={{marginBottom:"0.4rem", marginRight:"0.2rem"}} fontSize="medium"/>My Work</Link>
 <Link class = "nav-link nav1" to="/about" ><PortraitOutlinedIcon style={{marginBottom:"0.4rem", marginRight:"0.2rem"}} fontSize="medium"/>About</Link>
 <Link class = "nav-link nav1" to="/resume"><ArticleOutlinedIcon style={{marginBottom:"0.4rem", marginRight:"0.2rem"}} fontSize="medium"/>My CV</Link>
 <Link class = "nav-link nav1" to="/feedback"><FeedbackOutlinedIcon style={{marginBottom:"0.2rem", marginRight:"0.2rem"}} fontSize="medium"/>Feedback</Link>

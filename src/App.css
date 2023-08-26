@@ -300,11 +300,11 @@ top: 1%;
 }
 
 .nav-right{
-  margin-left: 46%;
+  margin-left: 42%;
 }
 @media screen and (min-width: 1340px) and (max-width: 1440px) {
   .nav-right{
-    margin-left: 40%;
+    margin-left: 36%;
   }
 }
 @media screen and (min-width: 1240px) and (max-width: 1300px) {
@@ -314,17 +314,17 @@ top: 1%;
 }
 @media screen and (min-width: 1089px) and (max-width: 1239px) {
   .nav-right{
-    margin-left: 25%;
+    margin-left: 20%;
   }
 }
 @media screen and (min-width:1039 ) and (max-width: 1088px) {
   .nav-right{
-    margin-left: 15%;
+    margin-left: 12%;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1030px) {
   .nav-right{
-    margin-left: 15%;
+    margin-left: 12%;
   }
 }
 .nav-link:hover{
@@ -470,10 +470,10 @@ justify-content: center;
 
 
 .head-fun h2{
-  color: #14dfc1;
+  color: #fbfdfd;
 }
-.fun-page h4{
-  color: aliceblue;
+.fun-page b{
+  color: rgb(30, 247, 229);
 }
 .head-fun{
   margin-bottom: 5%;
