@@ -30,7 +30,7 @@ function BodyHome() {
         <h1>Intro About <b>Me</b>.</h1>
         {/* <h1>INTRO ABOUT <b>ME</b>.</h1> */}
         
-        <p>Having lot of <b>interest in programming</b>, make me feel that I am the person who belongs here.</p>
+        <p>Having lot of <b>interest in programming</b>, makes me feel that I am the person who belong here.</p>
         <p>I got good knowledge in <b>Python, Java, JavaScript</b></p>
         <p>I always like to build new <b>Websites</b>, which motivates me to work more.</p>
         <p>This passion of learning new things, pushes me to learn <b>new technologies</b> and explore more in this field.</p>

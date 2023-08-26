@@ -39,19 +39,19 @@ function Fun(){
     <div class="card-body">
       <h5 class="card-title">Drum Kit</h5>
       <p class="card-text">By using mouse clicks or keys, play music and have fun.</p>
-      <a href="https://nitinsai381.github.io/Drum_Kit/" class="btn btn-primary">Let's play</a>
+      <a href="https://nitinsai381.github.io/Drum_Kit/" class="btn btn-primary">Play</a>
     </div>
   </div>
-  {/* <div class="card">
-  <div class="card-header">
-    Featured
+  <div class="card col-lg-3 col-md-4 col-sm-4 cardChanges">
+    <div class="card-header">
+      Tool 
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Short notes</h5>
+      <p class="card-text">It is a simple interface enables to add short notes here.</p>
+      <a href="https://nitinsai381.github.io/Short_notes/" class="btn btn-primary">Note it</a>
+    </div>
   </div>
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div> */}
   </div>
   </div>
 }
