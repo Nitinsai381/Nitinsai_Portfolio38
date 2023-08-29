@@ -193,6 +193,8 @@ margin-top: 8rem;
   border: 2.2px solid rgb(10, 223, 243) !important;
 }
 .connect{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   margin-top: 8rem;
 }
 
@@ -293,8 +295,10 @@ top: 1%;
 }
 .nav1{
   z-index: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: aliceblue;
-  
+  font-weight: 500;
   font-size: 1.5rem;
   margin-right: 2rem;
 }
@@ -471,6 +475,7 @@ justify-content: center;
 
 .head-fun h2{
   color: #fbfdfd;
+  font-weight: 600;
 }
 .fun-page b{
   color: rgb(30, 247, 229);
@@ -515,7 +520,7 @@ color:black
   margin-top: 10%;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Ubuntu', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   color: aliceblue;
 
 }
@@ -544,7 +549,7 @@ color:black
 } 
 .Aboutme h1{
   font-size: 1.25rem; 
-  font-weight: 400;
+  font-weight: 600;
 }
 .Aboutme p{
   /* font-family: 'Bricolage Grotesque', sans-serif;
@@ -552,12 +557,12 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
   font-size: 1.25rem;
-  /* font-weight: 400; */
+  font-weight: 600;
 }
 
 .Aboutme b{
   color: #57c5b6;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /* Techskills */
@@ -677,7 +682,11 @@ margin-top: 5rem;
 .feedback h1{
   color: #67fae7;
   margin-bottom: 3rem;
-  /* font-weight: 800; */
+  font-weight: 600;
+}
+.feedback h2{
+  margin-bottom: 2.5rem;
+  font-weight: 600;
 }
 .feedback p{
   font-size: 1.5rem;
