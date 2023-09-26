@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Nitinsai_Portfolio38/static/css/main.a9346973.css",
-    "main.js": "/Nitinsai_Portfolio38/static/js/main.cc8fe095.js",
+    "main.css": "/Nitinsai_Portfolio38/static/css/main.89a225a4.css",
+    "main.js": "/Nitinsai_Portfolio38/static/js/main.194baa8d.js",
     "static/js/787.fb771931.chunk.js": "/Nitinsai_Portfolio38/static/js/787.fb771931.chunk.js",
     "static/media/coderanim5.gif": "/Nitinsai_Portfolio38/static/media/coderanim5.05f035b3a27b38553a6a.gif",
     "static/media/NitinSai_CV.pdf": "/Nitinsai_Portfolio38/static/media/NitinSai_CV.6d94f7ba41e223242399.pdf",
     "index.html": "/Nitinsai_Portfolio38/index.html",
-    "main.a9346973.css.map": "/Nitinsai_Portfolio38/static/css/main.a9346973.css.map",
-    "main.cc8fe095.js.map": "/Nitinsai_Portfolio38/static/js/main.cc8fe095.js.map",
+    "main.89a225a4.css.map": "/Nitinsai_Portfolio38/static/css/main.89a225a4.css.map",
+    "main.194baa8d.js.map": "/Nitinsai_Portfolio38/static/js/main.194baa8d.js.map",
     "787.fb771931.chunk.js.map": "/Nitinsai_Portfolio38/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9346973.css",
-    "static/js/main.cc8fe095.js"
+    "static/css/main.89a225a4.css",
+    "static/js/main.194baa8d.js"
   ]
 }
