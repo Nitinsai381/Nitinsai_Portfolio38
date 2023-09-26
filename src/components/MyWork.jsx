@@ -20,6 +20,18 @@ function Fun(){
       <a href="https://nitinsai381.github.io/Simon_Game/" class="btn btn-primary">Play</a>
     </div>
   </div>
+
+  <div class="card col-lg-3 col-md-4 col-sm-4 cardChanges">
+    <div class="card-header">
+      Tool 
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">WeatherNow</h5>
+      <p class="card-text">Check the real-time "Weather" of any location in the world.</p>
+      <a href="https://weathernow-vnz7.onrender.com" class="btn btn-primary">Check</a>
+    </div>
+  </div>
+
   <div class="card col-lg-3 col-md-4 col-sm-4 cardChanges">
     <div class="card-header">
       Game
@@ -27,7 +39,7 @@ function Fun(){
     <div class="card-body">
       <h5 class="card-title">Dice Challenge</h5>
       <p class="card-text">Toss dice by refreshing page, challenge with your friends.</p>
-      <a href="https://nitinsai381.github.io/dice_game/" class="btn btn-primary">Toss it</a>
+      <a href="https://nitinsai381.github.io/dice_game/" class="btn btn-primary">Toss</a>
       
     </div>
     
@@ -49,7 +61,7 @@ function Fun(){
     <div class="card-body">
       <h5 class="card-title">Short notes</h5>
       <p class="card-text">It is a simple interface enables to add short notes here.</p>
-      <a href="https://nitinsai381.github.io/Short_notes/" class="btn btn-primary">Note it</a>
+      <a href="https://nitinsai381.github.io/Short_notes/" class="btn btn-primary">Note</a>
     </div>
   </div>
   </div>
